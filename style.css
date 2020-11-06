@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:white;
     margin: auto ;
     box-sizing: border-box;
     color: white;
@@ -7,13 +7,18 @@ body{
 
 #main-header{display: flex;
     justify-content: space-between;
-
+    
+    
 }
-.left-header, .right-header{
+ .right-header{
 margin-top: 15px;
 font-size: 30px;
 }
-
+.left-header{
+    margin-top: 15px;
+    font-size: 30px;
+    float: right;  
+}
 #bar-logo{
     margin-left: 30px;
     color: white;
@@ -37,9 +42,9 @@ font-size: 30px;
     width: 35em;
     margin-top: 17px;
     padding: 5px;
-    background-color: black;
+    background-color:white;
     border-right: none;
-    color: white;
+    color: rgb(14, 2, 2);
     font-size: 17px;
 }
 
@@ -71,6 +76,7 @@ font-size: 30px;
 .video-stat{
     display: flex;
     justify-content: space-between;
+    color: black;
 }
 #fa-fa{
     color: gray;
@@ -79,6 +85,7 @@ font-size: 30px;
 .video-description{
     margin: 40px;
     display: flex;
+    color: black;
 }
 .row-1{
     flex: 0.6;
@@ -96,12 +103,13 @@ font-size: 30px;
 #author-logo{
     border-radius: 20px;
     width: 50px;
+    color: black;
 }
 
 .author-name{
     font-weight: bold;
+    color: black;
 }
-
 
 
 #sub-btn{
@@ -114,7 +122,10 @@ font-size: 30px;
 
 .comments{
     margin: 30px;
+    color: black;
+    padding-left: 30px;
 }
+.comment.header
 
 #profile-pics{
     border-radius: 30px;
@@ -124,7 +135,7 @@ font-size: 30px;
     border: none;
     border-bottom: 1px solid #303030;
     background: none;
-    color: white;
+    color: black;
     width: 100%;
 }
 
@@ -138,6 +149,7 @@ font-size: 30px;
 .up-next{
      display: flex;
      justify-content: space-between;
+     color: black;
 }
 
 .auto-play{
@@ -146,11 +158,12 @@ font-size: 30px;
 }
 
 #auto-play-btn{
-    color: blue;
+    color: black;
 }
 
 .next-video{ 
     display: flex;
+    color: black;
 }
 
 #thumbnail{
@@ -162,9 +175,28 @@ font-size: 30px;
     margin-top: -25px;
     margin-left: -30px;
     cursor: pointer;
+    color: black;
 }
 
 .small-text{
     margin-top: -15px;
-    color: gray;
+    color: black;
+    text-decoration-color: black;
+    
+}
+h3{
+   display: flex;
+    
+   color: black;
+    text-decoration: black;
+}
+comments-header {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.comments-header h3 {
+    font-size: 18px;
 }
