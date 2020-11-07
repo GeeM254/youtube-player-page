@@ -193,8 +193,11 @@ h3{
 comments-header {
     display: flex;
     justify-content: flex-start;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    width: 90px;
 }
 
 .comments-header h3 {
